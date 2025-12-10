@@ -1,0 +1,15 @@
+/* Global UI polish without changing logic */
+html, body, #root {
+  height: 100%;
+}
+body {
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(139,92,246,0.20) 0%, transparent 40%),
+              radial-gradient(800px 400px at 90% 20%, rgba(236,72,153,0.18) 0%, transparent 40%),
+              #ffffff;
+  color: #0A0F1E;
+}
+/* Smooth transitions */
+* { transition: background-color .2s ease, color .2s ease, border-color .2s ease; }
+
+/* Utility */
+.container { max-width: 1140px; }
